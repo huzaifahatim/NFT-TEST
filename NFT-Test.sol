@@ -11,8 +11,8 @@ contract NFTCollection is ERC721Enumerable, Ownable {
     string public baseURI;
     string public baseExtension = ".json";
     uint256 public mintfees = 0.5 ether;
-    uint256 public cost = 0.5 ether;
-    uint256 public maxSupply = 100;
+    uint256 public cost = 1 ether;
+    uint256 public maxSupply = 1000;
     bool public paused = false;
     address private Owner;
 
